@@ -25,8 +25,10 @@ Only collect what this service needs. Do NOT start building until the required i
 
 ## THE RECIPE + JACOB'S GUIDE (from the SAX playbook — follow EXACTLY)
 CLAUDE'S RECIPE:
+- Collect: the client's full price list (every service, sizes or options, and add-ons), plus logo/colors.
 - Build an instant price calculator on their Ullbek site from their price list.
-- Add it to the menu as "Get your price." Publish and test.
+- Add it to the menu as "Get your price." Publish.
+- Test: open it on a phone, run three real jobs from their price list, and confirm each total matches what the owner would charge.
 - If their prices change, the calculator AND quote text both need the new numbers.
 
 
