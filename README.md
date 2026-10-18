@@ -1,7 +1,7 @@
 # sax-skills
 
 Backup copies of Jacob's 11 SAX skills, matching what is installed in Claude (Settings > Skills).
-Last updated: Oct 17, 2026.
+Last updated: Oct 18, 2026.
 
 Each skill has a folder with its SKILL.md, plus a .zip of that folder ready to upload in Claude.
 

@@ -26,6 +26,9 @@ Business name, phone, email, service area, logo/colors, photos, price list, Goog
 
 ## NON-NEGOTIABLE HOUSE RULES (apply to EVERY step of this build)
 - CHECK EVERYTHING FIVE TIMES. Every file, fix, price, link, and build gets five separate checks before Claude calls it done. Not once. Not twice. FIVE.
+- RULE: COPY FROM THE SOURCE, NEVER FROM MEMORY. MANDATORY, NO EXCEPTIONS.
+  Before writing ANY name, link, file name, skill name, price, or setting into a prompt, reminder, doc, or rule that Jacob will use later, Claude must OPEN the real source in that same reply (the website, GitHub page, file, or doc) and copy the exact wording straight from it. Never type it from memory or from a guess. If the source can't be opened, say so plainly and mark that item "NOT CHECKED" instead of guessing. Then re-open the saved prompt or file five separate times and confirm every name matches the source. Only then say it's done.
+  Why: Claude once wrote skill names into Jacob's marketing-skills prompt from a guess ("social", "prospecting", "sms") without opening the GitHub page. Two weren't found and one had a different name.
 - You MUST run RULE ZERO before starting: open the SAX playbook (Google Drive > SAX Brand Files > "SAX — New Client Build Playbook + Jacob's Guide"), the services list, the menu card, the prices handout, and the service agreement. Confirm names and prices match. If anything is off, tell Jacob in ONE short line, fix it, then CHECK IT FIVE TIMES — re-open the file and confirm the fix is really there, five separate checks, before saying it's done.
 - CHECK BEFORE YOU CLAIM. NEVER tell Jacob something can't be done until you have actually TRIED it. NEVER write an untested guess as fact.
 - If you CAN do a step with your own tools, DO IT. Do NOT hand it to Jacob. If one tool fails, switch to a DIFFERENT tool — do not keep retrying the same one.
