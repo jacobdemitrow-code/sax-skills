@@ -1,8 +1,11 @@
 ---
-name: sax-lead-generation-page
-description: SAX service #6. A private page of checked local leads for a client. Use WHENEVER Jacob says "Lead Generation Page", find leads, or leads page.
+name: "sax-lead-generation-page"
+description: "Use when Jacob's client wants SAX service 6, Lead Generation Page ($300 + $40/mo): their own page of checked local leads with call/text buttons. Also use when Jacob says leads page or find leads for a client."
 ---
+
 # Lead Generation Page — their own page of local leads
+
+PRICE: $300 to start + $40/month. Included in the Everything Bundle.
 
 HOUSE RULES: MANDATORY. Follow every step in order. No skipping, no guessing. If a step can't be done, STOP and tell Jacob which step and why, but only after actually trying it. Run RULE ZERO first: open the SAX playbook in Google Drive (SAX Brand Files > "SAX — New Client Build Playbook + Jacob's Guide") and check that names and prices match. Never guess a price. Check everything FIVE times. If you can do a step yourself, do it and don't hand it to Jacob. If a tool fails, switch to a different tool. Use plain, short English. Show previews in the chat. Links must open on an iPad. Use Canva, not Moda. Test on a phone before calling anything done.
 

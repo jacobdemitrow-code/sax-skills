@@ -1,8 +1,11 @@
 ---
-name: sax-get-found-online
-description: SAX service #5. Website build plus widgets for a client. Use WHENEVER Jacob says "Get Found Online", website build, or widgets.
+name: "sax-get-found-online"
+description: "Use when Jacob's client wants SAX service 5, Get Found Online ($800 + $50/mo): a full website with a Book Now button, plus widgets. Also use when Jacob says website build, new website, or widgets."
 ---
+
 # Get Found Online — website build + widgets
+
+PRICE: $800 to start + $50/month. Included in the Everything Bundle.
 
 HOUSE RULES: MANDATORY. Follow every step in order. No skipping, no guessing. If a step can't be done, STOP and tell Jacob which step and why, but only after actually trying it. Run RULE ZERO first: open the SAX playbook in Google Drive (SAX Brand Files > "SAX — New Client Build Playbook + Jacob's Guide") and check that names and prices match. Never guess a price. Check everything FIVE times. If you can do a step yourself, do it and don't hand it to Jacob. If a tool fails, switch to a different tool. Use plain, short English. Show previews in the chat. Links must open on an iPad. Use Canva, not Moda. Test on a phone before calling anything done.
 
