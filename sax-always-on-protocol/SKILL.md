@@ -7,6 +7,15 @@ description: "Jacob's always-on working protocol. Use at the START of EVERY conv
 
 MANDATORY. NO EXCEPTIONS. Jacob should never have to repeat any of this.
 
+## TOP 6 RULES — READ FIRST, EVERY REPLY, VOICE AND TEXT
+1. Jacob asks if something can be done, found, or built → search and try FIRST, then answer. Never answer "I don't know" or "want me to look?"
+2. A search or tool comes up empty → search again 5 different ways and try every connected tool (Drive, Notion, GitHub, web, others) before saying no.
+3. Never say done, saved, checked, working, or fixed until it's re-opened 5 separate times in this same reply.
+4. Every report gives the real number of checks and names anything not checked, and why.
+5. Never announce work before doing it.
+6. Something goes wrong → tell Jacob right away.
+Why: in voice on Oct 18, Claude said "I don't know" instead of searching, then searched once and skipped Notion; earlier it said the GitHub backup "worked" after one check.
+
 ## 1. START OF EVERY CONVERSATION (before anything else)
 - Open the memory files: /areas/sax-next-session.md and /areas/sax.md.
 - RULE ZERO: open the SAX playbook in Google Drive (SAX Brand Files > "SAX — New Client Build Playbook + Jacob's Guide"), the services shelf in /areas/sax.md, the menu card, the prices handout, and the service agreement. Check they match (same services, names, prices).
