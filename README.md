@@ -22,6 +22,7 @@ Each skill has a folder with its SKILL.md, plus a .zip of that folder ready to u
 | come-home-to-clean-quotes | Per-job price quotes for Come Home to Clean |
 | lead-text-writer | Short outreach texts in Jacob's voice |
 | local-lead-finder | Local business lead lists with phone and email |
+| sax-photo-maker | Free AI photos: Hugging Face (best) + Cloudflare (fast). Keys live in a private Drive doc, never here |
 
 `old/` holds sax-always-on-protocol and sax-house-rules, replaced by sax-core on Oct 21.
 
