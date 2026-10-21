@@ -5,9 +5,10 @@ description: "Use when Jacob's client wants SAX service 5, Get Found Online ($80
 
 # Get Found Online — website build + widgets
 
-PRICE: $800 to start + $50/month. Included in the Everything Bundle.
+**FIRST:** follow the sax-core skill (rules, ask-first list, privacy, prices).
+**BEFORE "DONE":** run the sax-done-check skill.
 
-HOUSE RULES: MANDATORY. Follow every step in order. No skipping, no guessing. If a step can't be done, STOP and tell Jacob which step and why, but only after actually trying it. Run RULE ZERO first: open the SAX playbook in Google Drive (SAX Brand Files > "SAX — New Client Build Playbook + Jacob's Guide") and check that names and prices match. Never guess a price. Check everything FIVE times. If you can do a step yourself, do it and don't hand it to Jacob. If a tool fails, switch to a different tool. Use plain, short English. Show previews in the chat. Links must open on an iPad. Use Canva, not Moda. Test on a phone before calling anything done.
+PRICE: $800 to start + $50/month. Included in the Everything Bundle.
 
 COLLECT: business name, phone, email, service area, services, hours, logo/colors, and photos of real work.
 CLAUDE'S RECIPE:
@@ -20,4 +21,13 @@ JACOB'S GUIDE:
 3. Give feedback, I fix, we publish.
 4. Add widgets once the site is live.
 
-DONE MEANS: every step is complete and checked five times, tested on a phone, Jacob approved the preview, and new lessons are written back into the playbook.
+## EXTRA SAFEGUARDS FOR THIS SERVICE
+- DOMAIN: the client buys the domain in THEIR own name and owns it (service agreement, section 7). Never buy it in Jacob's name.
+- ASK FIRST: publishing live and any purchase (domain, premium hosting).
+
+## DONE MEANS
+- Every recipe step is complete.
+- The sax-done-check passed 5 of 5 and was reported.
+- Jacob saw a preview and approved it.
+- Jacob was told which guide steps are his.
+- New lessons were added to the SAX Lessons Log.

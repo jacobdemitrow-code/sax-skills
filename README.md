@@ -1,14 +1,15 @@
 # sax-skills
 
-Backup copies of Jacob's 11 SAX skills, matching what is installed in Claude (Settings > Skills).
-Last updated: Oct 18, 2026.
+Backup copies of Jacob's SAX skills, matching what is installed in Claude (Settings > Skills).
+Last updated: Oct 21, 2026.
 
 Each skill has a folder with its SKILL.md, plus a .zip of that folder ready to upload in Claude.
 
 | Skill | What it is |
 |---|---|
-| sax-always-on-protocol | Start-of-chat check (RULE ZERO) and working rules |
-| sax-house-rules | SAX house rules, the 9 services and prices |
+| sax-core | The one rulebook: Jacob's 6 rules, ask-first list, privacy, the 9 services and prices, brand |
+| sax-done-check | The 5-check gate to run before saying done, saved, fixed or working |
+| sax-helpers | Tool Picker, Helper Ladder and Expert Finder for when a SAX skill isn't enough |
 | sax-never-miss-a-lead | Service 1 — $400 + $50/mo |
 | sax-win-back-old-customers | Service 2 — $150 + $30/mo |
 | sax-get-more-reviews | Service 3 — $150 + $30/mo |
@@ -18,5 +19,10 @@ Each skill has a folder with its SKILL.md, plus a .zip of that folder ready to u
 | sax-sunday-auto-update | Service 7 — $40/mo add-on, 25 new leads every Sunday |
 | sax-one-scan-qr | Service 8 — $125 + $25/mo |
 | sax-price-menu-graphic | Service 9 — $60 one time add-on, not in the bundle |
+| come-home-to-clean-quotes | Per-job price quotes for Come Home to Clean |
+| lead-text-writer | Short outreach texts in Jacob's voice |
+| local-lead-finder | Local business lead lists with phone and email |
+
+`old/` holds sax-always-on-protocol and sax-house-rules, replaced by sax-core on Oct 21.
 
 Everything Bundle: services 1-8 (QR included free) — $2,000 + $260/mo.

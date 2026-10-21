@@ -5,9 +5,10 @@ description: "Use when Jacob's client wants SAX service 6, Lead Generation Page 
 
 # Lead Generation Page — their own page of local leads
 
-PRICE: $300 to start + $40/month. Included in the Everything Bundle.
+**FIRST:** follow the sax-core skill (rules, ask-first list, privacy, prices).
+**BEFORE "DONE":** run the sax-done-check skill.
 
-HOUSE RULES: MANDATORY. Follow every step in order. No skipping, no guessing. If a step can't be done, STOP and tell Jacob which step and why, but only after actually trying it. Run RULE ZERO first: open the SAX playbook in Google Drive (SAX Brand Files > "SAX — New Client Build Playbook + Jacob's Guide") and check that names and prices match. Never guess a price. Check everything FIVE times. If you can do a step yourself, do it and don't hand it to Jacob. If a tool fails, switch to a different tool. Use plain, short English. Show previews in the chat. Links must open on an iPad. Use Canva, not Moda. Test on a phone before calling anything done.
+PRICE: $300 to start + $40/month. Included in the Everything Bundle.
 
 COLLECT: the client's trade, the cities they serve, and their best kind of customer.
 CLAUDE'S RECIPE:
@@ -20,4 +21,13 @@ JACOB'S GUIDE:
 2. I find and check the leads, then build their lead page.
 3. Show them how to use the Call/Text buttons and Mark Sent.
 
-DONE MEANS: every step is complete and checked five times, tested on a phone, Jacob approved the preview, and new lessons are written back into the playbook.
+## EXTRA SAFEGUARDS FOR THIS SERVICE
+- PRIVACY: put the leads page behind a password, or keep the list in the client's Google Sheet.
+- Texting businesses that never contacted you has its own legal rules. Until Jacob's lawyer has looked at this, the page offers Call first and Text second.
+
+## DONE MEANS
+- Every recipe step is complete.
+- The sax-done-check passed 5 of 5 and was reported.
+- Jacob saw a preview and approved it.
+- Jacob was told which guide steps are his.
+- New lessons were added to the SAX Lessons Log.
