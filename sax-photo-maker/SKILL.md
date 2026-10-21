@@ -14,7 +14,7 @@ Free AI photos in seconds. Set up Oct 21, 2026. sax-core rules always win.
 4. Do NOT use Canva or Moda for photos (Jacob's rule). Imagine only when it has credits.
 
 ## Setup in a new Claude Code chat (Claude does all of it)
-1. Find the Google Drive doc **"SAX — Photo Maker Keys (PRIVATE, do not share)"** and read its three lines (HF_TOKEN, CF_API_TOKEN, CF_ACCOUNT_ID).
+1. Find the Google Drive doc **"SAX — Photo Maker Keys (PRIVATE, do not share)"** and read its three lines (HF_TOKEN, CF_API_TOKEN, CF_ACCOUNT_ID). The Drive reader adds backslashes before underscores: remove every `\` before using them.
 2. Write them to `keys.env` in the session scratchpad, next to a copy of `sax_img.py` (umask 077). **Never** put keys in this repo, a page, a chat summary, or any public place.
 3. `pip install gradio_client pillow` (a venv is fine).
 4. Run: `python sax_img.py "subject and scene" out.jpg` (add `hf` or `cf` to force one).
