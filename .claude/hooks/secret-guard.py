@@ -71,11 +71,26 @@ elif tool == "Bash":
         for f in staged:
             if os.path.basename(f) == "keys.env" or f.endswith(".env"):
                 block(f"{f} is staged.")
-        diff = subprocess.run(["git", "diff", "--cached", "-U0"], cwd=ROOT,
+        # Staged AND unstaged changes, because "git add . && git commit" stages
+        # files after this check runs.
+        diff = subprocess.run(["git", "diff", "HEAD", "-U0"], cwd=ROOT,
                               capture_output=True, text=True).stdout
         added = "\n".join(l for l in diff.splitlines() if l.startswith("+") and not l.startswith("+++"))
         label = find_secret(added)
         if label:
-            block(f"{label} is in the staged changes.")
+            block(f"{label} is in the changes about to be saved to git.")
+        # Brand-new files git doesn't know yet (not ignored ones like keys.env).
+        new = subprocess.run(["git", "ls-files", "--others", "--exclude-standard"], cwd=ROOT,
+                             capture_output=True, text=True).stdout.split()
+        for f in new:
+            if os.path.basename(f) == "keys.env" or f.endswith(".env"):
+                block(f"{f} would be added.")
+            try:
+                with open(os.path.join(ROOT, f), errors="ignore") as fh:
+                    label = find_secret(fh.read(200000))
+            except OSError:
+                continue
+            if label:
+                block(f"{label} found in new file {f}.")
 
 sys.exit(0)
