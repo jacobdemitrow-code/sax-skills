@@ -27,7 +27,8 @@ Jacob's rule: when a skill changes, all four copies must match — Claude Settin
 1. **GitHub:** commit with a plain message ("Update sax-get-more-reviews: …") and push to `main`.
 2. **Notion:** search Notion for "SAX Skills" (inside SAX — Business Home Base), open the page for that skill, and replace its text with the new SKILL.md, word for word.
 3. **Playbook:** only if a build recipe or price changed — open "SAX — New Client Build Playbook + Jacob's Guide" in Google Drive (SAX Brand Files) and update that service's recipe to match.
-4. **Claude Settings:** send Jacob the zip with SendUserFile and say: "Upload this in Settings → Skills, replacing the old one." (Claude can't upload to Settings for him.)
+4. **Claude Settings (the one-tap way):** call the `propose_skills` tool with `kind: "improvement"`, `target` = the skill name, the same name and description, and `skillMd` = the COMPLETE new SKILL.md, copied word for word from the repo file (never a partial edit). Tell Jacob: "Tap Save on the card." That replaces the skill in Settings — no zip, no Safari, no deleting.
+   - Backup way, only if the card fails or the skill has extra files besides SKILL.md (like sax-photo-maker's sax_img.py): send the zip with SendUserFile and walk Jacob through Customize > Skills: turn the old one off, "..." > Delete, then "+" > "+ Create skill" > "Upload a skill".
 
 ## 6. Report
-Use the done-checker's format: the real number of checks for each place (GitHub, Notion, playbook), and name anything not checked and why. Say "not done yet" until Jacob confirms the Settings upload.
+Use the done-checker's format: the real number of checks for each place (GitHub, Notion, playbook), and name anything not checked and why. Say "not done yet" until Jacob says he tapped Save (or uploaded the zip).
