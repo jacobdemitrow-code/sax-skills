@@ -1,0 +1,33 @@
+{
+  "name": "sax-skills",
+  "description": "Jacob's SAX (StratAI Apex) skills, synced from GitHub",
+  "owner": {
+    "name": "Jacob (SAX)"
+  },
+  "plugins": [
+    {
+      "name": "sax",
+      "displayName": "SAX Skills",
+      "source": "./",
+      "description": "SAX rulebook, done-check, helpers, the 9 service recipes, quotes, leads and photo maker",
+      "skills": [
+        "./come-home-to-clean-quotes",
+        "./lead-text-writer",
+        "./local-lead-finder",
+        "./sax-core",
+        "./sax-done-check",
+        "./sax-get-found-online",
+        "./sax-get-more-reviews",
+        "./sax-helpers",
+        "./sax-know-your-price",
+        "./sax-lead-generation-page",
+        "./sax-never-miss-a-lead",
+        "./sax-one-scan-qr",
+        "./sax-photo-maker",
+        "./sax-price-menu-graphic",
+        "./sax-sunday-auto-update",
+        "./sax-win-back-old-customers"
+      ]
+    }
+  ]
+}

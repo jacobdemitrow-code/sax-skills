@@ -85,7 +85,23 @@ def check_secrets():
             problems.append(f"{t}: secret file is tracked by git (public repo!)")
 
 
+def check_plugin_list():
+    """Every top-level skill folder must be listed in the plugin, and nothing extra."""
+    import json
+    mp = ROOT / ".claude-plugin" / "marketplace.json"
+    if not mp.exists():
+        problems.append(".claude-plugin/marketplace.json is missing (the SAX Skills plugin)")
+        return
+    listed = {p.strip("./") for p in json.loads(mp.read_text())["plugins"][0].get("skills", [])}
+    folders = {p.parent.name for p in ROOT.glob("*/SKILL.md")}
+    for s in sorted(folders - listed):
+        problems.append(f"{s}: skill folder is not in the SAX Skills plugin list (marketplace.json)")
+    for s in sorted(listed - folders):
+        problems.append(f"{s}: listed in the SAX Skills plugin but the folder is missing")
+
+
 if __name__ == "__main__":
+    check_plugin_list()
     check_zips()
     check_prices()
     check_secrets()
