@@ -1,13 +1,14 @@
 ---
 name: sync-skill
-description: Push a changed SAX skill to every place it lives — GitHub, Notion SAX Skills, the playbook (if a recipe changed) — and hand Jacob the fresh zip for Claude Settings. Run only when Jacob types /sync-skill or asks to sync a skill.
+description: Push a changed SAX skill to every place it lives — GitHub (the master copy), Notion SAX Skills, and the playbook if a recipe changed. Run only when Jacob types /sync-skill or asks to sync a skill.
 disable-model-invocation: true
 argument-hint: "[skill-name, or blank for every changed skill]"
 ---
 
 # Sync a skill everywhere
 
-Jacob's rule: when a skill changes, all four copies must match — Claude Settings, GitHub, Notion SAX Skills, and the playbook if a recipe changed.
+Jacob's rule (Oct 21): GitHub is the MASTER copy. Claude reads each skill's newest version straight from
+`https://raw.githubusercontent.com/jacobdemitrow-code/sax-skills/main/<skill>/SKILL.md` before using it, so a change pushed here takes effect in every chat. Notion SAX Skills and the playbook must match too. Never ask Jacob to upload zips or update skills in Claude Settings.
 
 ## 1. Find what changed
 - If a skill name was given (`$ARGUMENTS`), use it. Otherwise run `git status --short` and list every skill folder with changes.
@@ -27,9 +28,8 @@ Jacob's rule: when a skill changes, all four copies must match — Claude Settin
 1. **GitHub:** commit with a plain message ("Update sax-get-more-reviews: …") and push to `main`.
 2. **Notion:** search Notion for "SAX Skills" (inside SAX — Business Home Base), open the page for that skill, and replace its text with the new SKILL.md, word for word.
 3. **Playbook:** only if a build recipe or price changed — open "SAX — New Client Build Playbook + Jacob's Guide" in Google Drive (SAX Brand Files) and update that service's recipe to match.
-4. **Claude (the SAX Skills plugin):** Jacob's skills reach Claude through the "SAX Skills" plugin, which reads this GitHub repo. Its auto-sync is unreliable (known bug), so tell Jacob the one step: "In Safari, open claude.ai → Customize → Plugins, tap the ⋮ next to the sax-skills marketplace, and tap **Check for updates**." A NEW skill folder must also be added to the `skills` list in `.claude-plugin/marketplace.json` (drift_check.py catches it if not).
-   - Do NOT use the propose_skills Save card: it never shows a Save button for Jacob (tested Oct 21, iPad Safari).
-   - Backup only if the plugin breaks: send the zip with SendUserFile and walk Jacob through Customize > Skills one step at a time.
+4. **Confirm it's live:** fetch the raw GitHub URL above for each changed skill and confirm the new text is there. That is what every chat will now read. A NEW skill folder must also be added to the `skills` list in `.claude-plugin/marketplace.json` (drift_check.py catches it if not).
+   - Claude Settings: nothing to do. Do NOT ask Jacob to upload zips, and do NOT use the propose_skills Save card (it shows no Save button for Jacob — tested Oct 21, iPad Safari).
 
 ## 6. Report
-Use the done-checker's format: the real number of checks for each place (GitHub, Notion, playbook), and name anything not checked and why. Say "not done yet" until Jacob says he tapped Check for updates.
+Use the done-checker's format: the real number of checks for each place (GitHub raw link, Notion, playbook), and name anything not checked and why.

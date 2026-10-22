@@ -35,8 +35,10 @@ Everything Bundle: services 1-8 (QR included free) — $2,000 + $260/mo.
 | Auto-zip hook | `.claude/hooks/auto-zip.sh` | When Claude edits a skill, its .zip is rebuilt so folder and zip always match |
 | Secret guard hook | `.claude/hooks/secret-guard.py` | Blocks keys and tokens from being saved or pushed here (this repo is public) |
 | Done-checker helper | `.claude/agents/done-checker.md` | A separate helper runs the 5 checks with fresh eyes |
-| /sync-skill | `.claude/skills/sync-skill/SKILL.md` | Pushes a changed skill to GitHub, Notion and the playbook — asks first. Claude then picks it up through the SAX Skills plugin (one "Check for updates" tap) |
-| SAX Skills plugin | `.claude-plugin/marketplace.json` | Turns this repo into a plugin, so Claude reads the skills straight from GitHub. No zip uploads |
+| /sync-skill | `.claude/skills/sync-skill/SKILL.md` | Pushes a changed skill to GitHub, Notion and the playbook — asks first |
+| SAX Skills plugin | `.claude-plugin/marketplace.json` | Optional: lets this repo be installed as a plugin in Claude Code |
+
+**This repo is the master copy.** Before using a SAX skill, Claude reads its newest version from `https://raw.githubusercontent.com/jacobdemitrow-code/sax-skills/main/<skill>/SKILL.md`, so a change pushed here works in every chat. No zip uploads to Claude Settings.
 | Weekly drift check | `scripts/drift_check.py` | Sunday morning check: zips match folders, prices match sax-core, no key files |
 
 `keys.env` stays out of git (see `.gitignore`). Run `python3 scripts/drift_check.py` any time.
