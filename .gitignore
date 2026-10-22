@@ -1,0 +1,9 @@
+# Keys never go in this public repo
+keys.env
+*.env
+.env*
+
+# Junk
+__pycache__/
+*.pyc
+.DS_Store

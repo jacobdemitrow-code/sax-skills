@@ -27,3 +27,15 @@ Each skill has a folder with its SKILL.md, plus a .zip of that folder ready to u
 `old/` holds sax-always-on-protocol and sax-house-rules, replaced by sax-core on Oct 21.
 
 Everything Bundle: services 1-8 (QR included free) — $2,000 + $260/mo.
+
+## Automations (Claude Code, added Oct 21)
+
+| What | Where | What it does |
+|---|---|---|
+| Auto-zip hook | `.claude/hooks/auto-zip.sh` | When Claude edits a skill, its .zip is rebuilt so folder and zip always match |
+| Secret guard hook | `.claude/hooks/secret-guard.py` | Blocks keys and tokens from being saved or pushed here (this repo is public) |
+| Done-checker helper | `.claude/agents/done-checker.md` | A separate helper runs the 5 checks with fresh eyes |
+| /sync-skill | `.claude/skills/sync-skill/SKILL.md` | Pushes a changed skill to GitHub, Notion and the playbook, and hands back the zip for Settings — asks first |
+| Weekly drift check | `scripts/drift_check.py` | Sunday morning check: zips match folders, prices match sax-core, no key files |
+
+`keys.env` stays out of git (see `.gitignore`). Run `python3 scripts/drift_check.py` any time.
