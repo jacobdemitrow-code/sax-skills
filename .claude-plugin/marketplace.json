@@ -18,6 +18,7 @@
         "./sax-done-check",
         "./sax-get-found-online",
         "./sax-get-more-reviews",
+        "./sax-handoff",
         "./sax-helpers",
         "./sax-know-your-price",
         "./sax-lead-generation-page",
