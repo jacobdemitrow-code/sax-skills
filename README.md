@@ -7,7 +7,7 @@ Each skill has a folder with its SKILL.md, plus a .zip of that folder ready to u
 
 | Skill | What it is |
 |---|---|
-| sax-core | The one rulebook: Jacob's 6 rules, ask-first list, privacy, the 10 services and prices, brand |
+| sax-core | The one rulebook: Jacob's 7 rules, ask-first list, privacy, the 10 services and prices, brand |
 | sax-done-check | The 5-check gate to run before saying done, saved, fixed or working |
 | sax-helpers | Tool Picker, Helper Ladder and Expert Finder for when a SAX skill isn't enough |
 | sax-never-miss-a-lead | Service 1 — $400 + $50/mo |
