@@ -9,7 +9,7 @@
       "name": "sax",
       "displayName": "SAX Skills",
       "source": "./",
-      "description": "SAX rulebook, done-check, helpers, the 9 service recipes, quotes, leads and photo maker",
+      "description": "SAX rulebook, done-check, helpers, the 10 service recipes, quotes, leads and photo maker",
       "skills": [
         "./come-home-to-clean-quotes",
         "./lead-text-writer",
@@ -19,6 +19,7 @@
         "./sax-done-check",
         "./sax-get-found-online",
         "./sax-get-more-reviews",
+        "./sax-google-profile-fix",
         "./sax-handoff",
         "./sax-helpers",
         "./sax-know-your-price",

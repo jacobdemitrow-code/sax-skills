@@ -58,8 +58,8 @@ def core_prices():
 
 def check_prices():
     table, bundle = core_prices()
-    if len(table) != 9:
-        problems.append(f"sax-core: expected 9 services in the price table, found {len(table)}")
+    if len(table) != 10:
+        problems.append(f"sax-core: expected 10 services in the price table, found {len(table)}")
     allowed_any = set().union(*table.values()) | bundle
     for skill, ok in table.items():
         f = ROOT / skill / "SKILL.md"

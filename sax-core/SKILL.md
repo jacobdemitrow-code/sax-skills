@@ -1,6 +1,6 @@
 ---
 name: "sax-core"
-description: "Jacob's SAX (StratAI Apex) rulebook: house rules, the ask-first list, the 9 services and prices, brand, and client intake. Use for ANY SAX work: a client build, a service question, prices, flyers, the playbook, leads, Canva, Drive, or Notion. Every sax-* service skill starts by following this one."
+description: "Jacob's SAX (StratAI Apex) rulebook: house rules, the ask-first list, the 10 services and prices, brand, and client intake. Use for ANY SAX work: a client build, a service question, prices, flyers, the playbook, leads, Canva, Drive, or Notion. Every sax-* service skill starts by following this one."
 ---
 
 # SAX Core — the one rulebook
@@ -45,8 +45,8 @@ Run it ONLY when the task touches prices, services, a client build, or the playb
 4. If something doesn't match, tell Jacob in ONE short line and wait for him to say which one is right.
 If a file can't be found, say so in one line. Don't spend more than 2 searches on it.
 
-## 5. The 9 services and prices (founding prices, first 3 clients, set Oct 17)
-Copied from the playbook and the OFFICIAL pricing doc, which matched on Oct 21.
+## 5. The 10 services and prices (founding prices, first 3 clients, set Oct 17; service 10 added Oct 27)
+Copied from the playbook and the OFFICIAL pricing doc, which matched on Oct 27.
 
 | # | Service | Start | Monthly | Skill |
 |---|---|---|---|---|
@@ -59,8 +59,9 @@ Copied from the playbook and the OFFICIAL pricing doc, which matched on Oct 21.
 | 7 | Sunday Auto-Update (add-on) | none | $40/mo | sax-sunday-auto-update |
 | 8 | One-Scan QR Code | $125 | $25/mo | sax-one-scan-qr |
 | 9 | Price Menu Graphic (add-on) | $60 one time | none | sax-price-menu-graphic |
+| 10 | Google Profile Fix | $250 one time | none | sax-google-profile-fix |
 
-**Everything Bundle:** services 1–8 (QR included free) — $2,000 to start + $260/mo. The Price Menu Graphic is NOT in the bundle.
+**Everything Bundle:** services 1–8 and 10 (QR included free) — $2,250 to start + $260/mo. The Price Menu Graphic is NOT in the bundle.
 **Front door:** a FREE Money Leak Audit.
 **Contact:** Jacob Demitrow • 951-418-0216 • jacobdemitrow@gmail.com
 **The monthly fee includes** up to 2 hours of changes a month (from the service agreement). Log the time spent on each client's changes.
