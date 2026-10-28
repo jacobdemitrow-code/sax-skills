@@ -95,6 +95,7 @@ Canva is the default for design. Do NOT use Moda. If the sax-helpers Tool Picker
 1. **Ask** Jacob exactly what the client wants, in plain words.
 2. **Collect once** and reuse for everything: business name, phone, email, service area, logo/colors, photos, price list, Google review link, website (if any), Facebook/Instagram links, and past customers (only people who already did business with them). Only collect what the service needs.
 3. **On the list?** Run that service's skill and tell Jacob which guide steps are his.
+   - **Website or anything hosted?** Remind Jacob of the Drive recipe book "SAX — Website Alternate Builders for Paid Clients (Recipe Book)" in SAX Brand Files, and pick the builder from it (Wix if she'll edit it herself, Netlify for cheap monthly clients, Ullbek for now). The research is done (Oct 27, 2026). Don't redo it.
 4. **New or a mix?** Build it fresh together. Then write it up as a new service skill and add it to the playbook, the pricing doc, the menu card, the prices handout, and the agreement. Ask Jacob before changing any of them.
 
 ## 7b. Best tool, best method
