@@ -80,6 +80,7 @@ Copied from the playbook and the OFFICIAL pricing doc, which matched on Oct 27.
 **Front door:** a FREE Money Leak Audit.
 **Contact:** Jacob Demitrow • 951-418-0216 • jacobdemitrow@gmail.com
 **The monthly fee includes** up to 2 hours of changes a month (from the service agreement). Log the time spent on each client's changes.
+**Extra work (set Oct 27):** $50 an hour, billed in half-hour chunks ($25 each, always rounded up). For setup-only clients, or monthly clients past their 2 included hours. Get the client's OK on the estimate first (a text counts). Full recipe: the playbook section "How Extra Work Is Billed". Raise toward $65–$75/hr only after 3 clients and testimonials.
 
 ## 6. Brand
 Navy #141539 / #1a1c4b, blue #3ba4ff, purple #5b2ec4. Orbitron for headlines, Chakra Petch for body text.
