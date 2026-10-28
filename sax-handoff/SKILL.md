@@ -29,5 +29,6 @@ Use exactly these sections. Under 1 page. Only facts confirmed in this chat. Mar
 
 ## Then
 - Re-open the doc and confirm it saved (sax-done-check, document row).
-- Give Jacob the doc link and one line: "Open a new chat and paste the prompt at the top."
+- Give Jacob the doc link, then the COPY-PASTE PROMPT again in the chat inside a code block (three backticks), so he can tap Copy on the iPad. The code block holds only the prompt, word for word the same as in the doc.
+- Then one line: "Open a new chat and paste this."
 - Nothing else. No summary wall in chat.
