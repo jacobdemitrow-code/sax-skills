@@ -19,6 +19,7 @@ Weekdays, the agent team finds 5 real local leads, checks them, writes one uniqu
   - Lead Finder: finds businesses with a real, published email and 2–3 website observations.
   - Lead Checker: a separate agent. Re-opens every page and drops anything it can't confirm.
   - Email Writer: writes one email per kept lead from checked facts only.
+  - The call list, audit times, reply drafts, Friday post ideas and Monday business ideas are done by the scheduled task itself (no separate agents since Oct 28).
 - **Make only sends.** "SAX Outreach - Send Approved Batch" (6759157) is the Send all button: each tap sends 10 Pending leads and handles follow-ups. "SAX Outreach - Finder + Writer" (6759114) is OFF and replaced by the agent team.
 - Tracker: Google Sheet "SAX Outreach Tracker" 1iLqA2Mdz29jmbBg0lEbozusEWAiBAnrf4uBsGEmjR9g. Columns A–N: Date found, Niche, Business, Town, Email, Phone, Website, Why them, Subject, Email body, Status, Date emailed, Notes, Follow-up date. Status: Pending, Skip, Emailed, Followed up, Replied, Stop, Bounced.
 - The Send all key and the API key never go in a skill, doc, or GitHub.
@@ -71,6 +72,7 @@ jacobdemitrow@gmail.com
 - Send Tue–Thu mornings when possible. Don't send on weekends.
 - The summary email says: "Best time to tap Send all: a Tue–Thu morning. If it's after 2 PM, wait until the next weekday morning."
 - After any Make change, confirm every scenario's ON/OFF with scenarios_list.
+- After you change a helper agent, point the Chief of Staff at its new version (it pins version numbers). A helper that uses a skill needs the read tool turned on.
 - Never send, post, or tap the Send all link. Jacob taps it.
 
 ## 8. Done-check for this build (5 different checks)

@@ -15,7 +15,7 @@ This is the ONLY place these rules and prices live. Other skills point here. The
 4. **Say the real number.** Every report says how many checks passed and names anything NOT checked, and why.
 5. **Do it, don't announce it.** No "on it" or "doing it now." Do the work, then give a short summary.
 6. **Bad news right away.** If something fails, is slow, or is blocked, tell Jacob at once: what happened, what's done, what's next.
-7. **Check what we have first.** Before any "can you", "find me" or "free version" answer, check 5 places: Claude's skills (SAX skills on GitHub), memory (/topics/toolbox.md), Jacob's Drive, past chats, and connected apps. Answer with what we already have, then research only what's missing.
+7. **Check what we have first.** Before any "can you", "find me" or "free version" answer, check 5 places: Claude's skills (SAX skills on GitHub), the SAX map (section 10), Jacob's Drive, past chats, and connected apps. Answer with what we already have, then research only what's missing.
 
 ## 2. Always ask Jacob first (STOP before these)
 Claude does all the building work itself. But these actions reach other people or cost money, so Claude STOPS and gets Jacob's "yes" first:
@@ -50,7 +50,9 @@ Why: California's CIPA law lets lawyers sue small businesses whose sites send vi
 - Selling line: "Your site is built lawsuit-safe: no hidden trackers, privacy page included."
 
 ## 3b. Start of every chat with Jacob
-Open the memory notes first: /areas/sax-next-session.md (what's left to do), /areas/sax.md (the SAX services shelf and notes), and /topics/toolbox.md (what Claude can do right now). Pick up where the last chat left off. If they can't be opened in this chat, say so in one short line and keep going.
+- In the **SAX Project** (Claude app > Code > Projects): its memory and instructions load by themselves. Just pick up the task.
+- In any other chat: open the newest Drive doc "SAX — Next Session (date)" (folder 1D8QZ-NXLnRVx6IheIf4vByR-XDZkRV_2), top section first, and read section 10 below so you know where everything is.
+- The old /areas/ and /topics/ memory notes do NOT exist in cloud chats. Don't look for them.
 
 ## 4. When to run Rule Zero (the source check)
 Run it ONLY when the task touches prices, services, a client build, or the playbook. Skip it for quick jobs like a lead text or a quote.
@@ -114,4 +116,24 @@ Canva is the default for design. Do NOT use Moda. If the sax-helpers Tool Picker
 ## 9. After every job
 - Add each new lesson as ONE line in the Drive doc "SAX — Lessons Log": date, client, lesson.
 - Once a month, move the lessons that keep coming up into the right service skill.
-- Update /areas/sax-next-session.md with what's left to do, and add anything new about SAX to /areas/sax.md.
+- In the SAX Project: tell it to remember what's left to do. Anywhere else: update the "SAX — Next Session" doc (sax-handoff skill).
+- If you changed a skill on GitHub: give Jacob the zip link to upload in Claude Settings > Skills (https://github.com/jacobdemitrow-code/sax-skills/raw/main/<skill>.zip). Until he uploads it, chats still use the old copy.
+- If you changed an agent or scheduled task: update section 10 if its name, time, or home changed.
+
+## 10. Where everything lives (the SAX map, one copy only)
+Change an agent in its home below, nowhere else. Don't make copies of instructions.
+
+| What | When | Its instructions live in | How to change it |
+|---|---|---|---|
+| SAX daily lead team | Weekdays 8:40 AM | Scheduled task (claude.ai/code/routines) | Ask any chat: Claude updates the task with update_trigger |
+| SAX daily post (Facebook) | Weekdays 10:37 AM | Scheduled task + Drive doc "SAX — Facebook Post Plan + Log" (style rules, queue, log) | Post rules or queue: edit the Facebook plan doc. Steps: update the task |
+| SAX weekly improver | Saturdays 10:43 AM | Scheduled task that runs in its own chat "SAX weekly improver (home)" | Only from that chat: paste the change there |
+| Sunday lead list (Come Home to Clean) | Sundays 7:45 AM | Scheduled task | Ask any chat |
+| Lead team helpers: Chief of Staff, Lead Finder, Lead Checker, Email Writer | Called by the daily lead team | Claude Managed Agents at platform.claude.com | Update the agent with the API, then point the Chief of Staff at the helper's new version number |
+| Rules, prices, services | Every chat | This skill (sax-core) on GitHub, then uploaded to Claude Settings > Skills | Edit on GitHub, then Jacob uploads the zip |
+| Cold email system | | sax-cold-email-outreach skill | Same as above |
+
+- Tracker: Google Sheet "SAX Outreach Tracker" 1iLqA2Mdz29jmbBg0lEbozusEWAiBAnrf4uBsGEmjR9g. Lessons: Drive "SAX — Lessons Log".
+- Backup of the task instructions before the Oct 28 cleanup: Drive "SAX — Agent Instructions BACKUP (Oct 28, before cleanup)".
+- Retired Oct 28 (do not use or copy): the Scheduling Agent, Social Brainstormer, Idea Agent and Marketing Writer agents (their jobs now live in the scheduled tasks above), and the old Notion pages marked OLD.
+- Secrets (API key, Send all key, Make keys) never go in a skill, doc, or GitHub.
