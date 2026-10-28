@@ -35,6 +35,20 @@ How to ask: one short line. Example: "Ready to publish Rosa's site live. OK?"
 - Texts: only text people who already did business with the client. Always include "Reply STOP to opt out."
 - Why: the SAX service agreement promises "Jacob keeps customer information private."
 
+## 3c. Lawsuit-safe builds (built into EVERY build, added Oct 27)
+Applies to every website, page, booking form, link/QR page, lead page, app, or widget built for a client. Not a separate service; it's part of every build. Full recipe and Jacob's guide: the playbook section "Built Into Every Build — Privacy & Lawsuit-Safe Check".
+Why: California's CIPA law lets lawyers sue small businesses whose sites send visitor info to Facebook, Google, or TikTok through hidden tracking pixels without asking. It covers any site Californians visit. SB 690 (signed Sept 30, 2026) cuts back some of these suits, not all. California's CalOPPA law also requires a posted privacy policy on business sites that collect names, phones, or addresses.
+- **No trackers by default.** No Facebook/TikTok Pixel, Google Analytics, Tag Manager, heatmaps, or session recording unless the client asks.
+- **Scan before handing over.** Open the page code and every script. List anything that sends visitor info to another company (Google Fonts counts; name it in the privacy page).
+- **Any form = a privacy page.** Add privacy.html in the client's colors, in plain words: what's collected (match the real form fields), how it's used, who sees it, never sold, no ad trackers, Do Not Track / Global Privacy Control line, how to see, fix, or delete their info, kids-under-13 line, effective date.
+- **Link it.** "Privacy policy" in the footer, plus one line under each form: "We only use this to call you back about your [service]. We never sell it. Privacy policy."
+- **Chat bubbles** from other companies are part of these suits too. Tell Jacob first and list it in the privacy page.
+- **Pixel later?** Cookie consent pop-up goes on FIRST, so the pixel loads only after the visitor taps Accept. Then update the privacy page.
+- **Check it** in sax-done-check: the live privacy page and footer link open logged out, at phone and iPad size, and the policy's fields match the real form.
+- Jacob and Claude are not lawyers. This is a safety step, not legal advice. A client with a demand letter should call a lawyer.
+- Proven on Come Home to Clean, Oct 27: come-home-to-clean.ullbek.site/privacy.html
+- Selling line: "Your site is built lawsuit-safe: no hidden trackers, privacy page included."
+
 ## 3b. Start of every chat with Jacob
 Open the memory notes first: /areas/sax-next-session.md (what's left to do), /areas/sax.md (the SAX services shelf and notes), and /topics/toolbox.md (what Claude can do right now). Pick up where the last chat left off. If they can't be opened in this chat, say so in one short line and keep going.
 
