@@ -1,6 +1,6 @@
 ---
 name: "sax-done-check"
-description: "Jacob's 5-check gate. Use BEFORE saying anything is done, saved, fixed, uploaded, working, or checked: any SAX build, page, graphic, doc, text, quote, lead list, or skill edit. Runs 5 DIFFERENT checks matched to the type of work and reports what each one found."
+description: "Jacob's 5-check gate. Use BEFORE saying anything is done, saved, fixed, uploaded, working, or checked: any SAX build, page, graphic, doc, text, quote, lead list, skill edit, or the end of a scheduled task or agent run. Runs 5 DIFFERENT checks matched to the type of work and reports what each one found."
 ---
 
 # The 5-Check Gate
@@ -51,6 +51,14 @@ Pick the row that matches the work, run all 5, then report.
 3. **No guesses:** every email was actually seen published. Blank is better than guessed.
 4. **No repeats:** no duplicate names or phone numbers, and nobody already on the client's page.
 5. **In the area:** every business is inside the area asked for, and no national chains.
+
+### An unattended run (scheduled task or agent, added Nov 8)
+Every scheduled task and agent runs these at the end, before its email or final message to Jacob. Each task has this block at the top of its prompt, under its job card.
+1. **Finished:** every step ran. If one failed, the report names it and what was tried.
+2. **Saved:** everything it wrote (tracker rows, drafts, leads, the email) was opened again after saving.
+3. **Only Jacob:** nothing went to anyone but Jacob. The run itself never sends, posts, publishes, or taps Send all.
+4. **Cost:** the run's API cost is in the report, or it says "No extra API cost."
+5. **Problems first:** if anything failed, the first line starts with "FAILED:" so Jacob's phone shows it.
 
 ## How to report (always this format)
 "**Checked 5 of 5:** source ✓, logged-out ✓, phone ✓, test booking arrived ✓, privacy ✓."

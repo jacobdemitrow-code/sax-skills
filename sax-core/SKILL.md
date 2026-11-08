@@ -34,6 +34,12 @@ Claude does all the building work itself. But these actions reach other people o
 
 How to ask: one short line. Example: "Ready to publish Rosa's site live. OK?"
 
+**The stakes ladder (added Nov 8).** Match the check to the worst thing that could happen.
+- **(a) Only Jacob sees it** (a draft, a report): no checkpoint. It can run on its own.
+- **(b) It reaches one stranger or one client:** Jacob taps first (Send all, "yes, post it").
+- **(c) It reaches many people or costs money:** Jacob taps first AND the tool itself has a hard cap (example: Make sends only 10 per Send all tap).
+A rule in a prompt is a suggestion. A rule in the tools is a lock. So every scheduled task holds only the apps it needs, and every new agent lists its apps and its worst case before it is turned on.
+
 ## 3. Customer privacy (non-negotiable)
 - Customer names, phone numbers, and addresses NEVER go on a public web page.
 - Lead trackers and past-customer lists live somewhere locked: the client's Google Sheet, or a page that needs a password. A page that is "just not linked anywhere" is NOT private.
