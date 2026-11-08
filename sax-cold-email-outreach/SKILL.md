@@ -79,3 +79,20 @@ jacobdemitrow@gmail.com
 3. **Gmail sent:** only the expected emails went out, to the right people, with no duplicates.
 4. **Summary email:** it arrived, and the Send all button and plain link are both visible.
 5. **Claims:** every Pending email's facts were confirmed on the live site.
+
+## 9. The math (added Nov 8): how many clients the machine makes
+One equation decides everything. Track these 4 numbers in the tracker every week; change ONE at a time.
+
+**Clients a month = N x R x A x C**
+- N = businesses contacted a month. R = share that reply (any human reply). A = share of replies that book the free audit. C = share of audits that pay.
+- Measured so far (Oct 21 to Nov 6, about 140 strangers): calls/texts 0 of 70, plain DMs 0 of 25, DMs WITH a sample page 1 of 20 (5%), cold emails 0 of 25 (1 auto-reply, so emails ARE landing). Follow-ups sent: 0 of 4. Audits: 0. Clients: 0.
+- Rule of three: 0 of 25 does NOT mean email is dead. With 25 sends the true reply rate could still be anything up to about 12%. Under 50 contacts per change, say "too early", never "it failed".
+- Outside benchmarks (vendor data, treat as rough): average cold email reply about 3 to 3.5%; small lists under 50 about 5.8%; 3 to 5 follow-ups about doubles replies (8.3% vs 4.1%), and about 42% of all replies come from follow-ups; "want to see it in action / can I show you a quick example" CTAs get the most positive replies.
+
+**What the equation says to do, in order (biggest lift first):**
+1. **Send the follow-ups.** Replies roughly double with follow-ups and ours were never sent. Sequence: day 0 email, day 3 follow-up (one line, same thread), day 7 last touch that offers the sample page. Make route 2 already sends follow-up 1; touch 3 needs a Make change (ask Jacob).
+2. **Lead with the sample.** The only thing that got a yes was showing something (1 of 20). Every email's question becomes "Want me to send a quick example of what your customers would see?" The example itself goes in the REPLY or the day-7 follow-up, never in email 1 (no links in a cold email).
+3. **Double N.** At R 3%, A 50%, C 33%: 1 client needs about 200 contacts (200 x .03 x .5 x .33 = 1). 5 leads a day = 100 a month = about half a client a month. 10 a day = 1 a month. Cost measured Oct 27: $0.94 per 5 leads, so 10 a day is about $40 a month of the $100 budget.
+4. **Fewer steps, fewer breaks.** A run with 7 steps at 95% each finishes clean about 70% of the time (0.95^7). The daily lead team should do ONE job: leads + sent check + summary. Monday and Friday idea emails move to the Saturday improver or get dropped (they make reports, not clients).
+
+**Scoreboard (the improver reads these from the tracker each Saturday):** N this month, R, A, C, expected clients = N x R x A x C, and the one change being tested right now. If R is under 2% after 100 sends with follow-ups, change the subject/opening. If R is over 3% but A is 0, the problem is the reply and the booking link, not the email.
