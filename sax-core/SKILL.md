@@ -126,4 +126,6 @@ Canva is the default for design. Do NOT use Moda. If the sax-helpers Tool Picker
 ## 9. After every job
 - Add each new lesson as ONE line in the Drive doc "SAX — Lessons Log": date, client, lesson.
 - Once a month, move the lessons that keep coming up into the right service skill.
+- **The twice rule (added Nov 8):** fixed the same thing twice? Put it in a skill or a script the same day, not only in the Lessons Log.
+- **New automation?** Add a row to the "Automations Register" tab in the SAX Outreach Tracker before it is turned on: its job, owner, stakes rung, apps, and where its run history is.
 - Update the Drive doc "SAX — Next Session (always current)" with what's left to do (the sax-handoff skill does this, in place, newest at the top).
