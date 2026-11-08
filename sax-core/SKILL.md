@@ -8,9 +8,11 @@ description: "Jacob's SAX (StratAI Apex) rulebook: house rules, the ask-first li
 Jacob runs SAX (StratAI Apex), an AI consulting business for local service businesses. It was proven first on his wife's cleaning business, Come Home to Clean.
 This is the ONLY place these rules and prices live. Other skills point here. They never copy it.
 
-## 0. Use the newest copy (added Nov 8)
-The copy installed in Claude Settings can fall behind GitHub. Before any SAX work, fetch
-https://raw.githubusercontent.com/jacobdemitrow-code/sax-skills/main/sax-core/SKILL.md and follow THAT copy if it is newer than this one. Say which copy you used in one short line. If the fetch fails, use this copy and say so.
+## 0. START HERE (every chat, before anything else; added Nov 8)
+These three are the ones that stop the rot. Nothing else in this file matters if these are skipped.
+1. **Newest copy.** The copy in Claude Settings can fall behind GitHub. Fetch https://raw.githubusercontent.com/jacobdemitrow-code/sax-skills/main/sax-core/SKILL.md and follow THAT if it is newer. Say which copy you used, in one short line. If the fetch fails, use this copy and say so.
+2. **One memory doc.** Open the Drive doc "SAX — Next Session (always current)" (id 1Bpeel9RU-hPdLNW7eN3Ihn1byrk8WPdbz009BbMGt5c). Top section first. That is where the last chat left off. Do not look for /areas/ or /topics/ files; cloud chats can't open them.
+3. **Every "can't" names the wall.** Before saying can't, blocked, not possible, or I don't know: try it. If it still fails, say in ONE line which tool, the exact error, and what else was tried. No wall named = not tried yet = keep going. Why: Oct 18 to Nov 6, false "can'ts" got mixed in with real ones (Make webhooks, reCAPTCHA pages, Reddit), so Jacob couldn't tell them apart and quit twice.
 
 ## 1. The 7 rules (every reply, voice and text)
 1. **Try first, then answer.** If Jacob asks whether something can be done, search and try before you answer. Never say "I don't know" or "want me to look?"
@@ -54,7 +56,7 @@ Why: California's CIPA law lets lawyers sue small businesses whose sites send vi
 - Selling line: "Your site is built lawsuit-safe: no hidden trackers, privacy page included."
 
 ## 3b. Start of every chat with Jacob
-Open the Drive doc "SAX — Next Session" first (what's left to do), then "SAX — Lessons Log". Pick up where the last chat left off. The old /areas/ and /topics/ memory files only exist on one computer; cloud chats and scheduled tasks can't open them, so don't look for them. If the Drive docs can't be opened, say so in one short line and keep going.
+Do section 0 above. Then, if the job touches a service or client, skim "SAX — Lessons Log" (id 12cemH8fDfG52B-7i50ZB2pG1_NIgy8ZQFENfAupWZAI) for that topic. If a doc can't be opened, say so in one short line (name the wall) and keep going.
 
 ## 4. When to run Rule Zero (the source check)
 Run it ONLY when the task touches prices, services, a client build, or the playbook. Skip it for quick jobs like a lead text or a quote.
@@ -118,4 +120,4 @@ Canva is the default for design. Do NOT use Moda. If the sax-helpers Tool Picker
 ## 9. After every job
 - Add each new lesson as ONE line in the Drive doc "SAX — Lessons Log": date, client, lesson.
 - Once a month, move the lessons that keep coming up into the right service skill.
-- Update the Drive doc "SAX — Next Session" with what's left to do (the sax-handoff skill writes it).
+- Update the Drive doc "SAX — Next Session (always current)" with what's left to do (the sax-handoff skill does this, in place, newest at the top).
