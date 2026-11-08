@@ -8,6 +8,10 @@ description: "Jacob's SAX (StratAI Apex) rulebook: house rules, the ask-first li
 Jacob runs SAX (StratAI Apex), an AI consulting business for local service businesses. It was proven first on his wife's cleaning business, Come Home to Clean.
 This is the ONLY place these rules and prices live. Other skills point here. They never copy it.
 
+## 0. Use the newest copy (added Nov 8)
+The copy installed in Claude Settings can fall behind GitHub. Before any SAX work, fetch
+https://raw.githubusercontent.com/jacobdemitrow-code/sax-skills/main/sax-core/SKILL.md and follow THAT copy if it is newer than this one. Say which copy you used in one short line. If the fetch fails, use this copy and say so.
+
 ## 1. The 7 rules (every reply, voice and text)
 1. **Try first, then answer.** If Jacob asks whether something can be done, search and try before you answer. Never say "I don't know" or "want me to look?"
 2. **Empty search → keep looking.** Search 5 different ways and try every connected tool (Drive, Notion, GitHub, web) before saying no.
@@ -15,7 +19,7 @@ This is the ONLY place these rules and prices live. Other skills point here. The
 4. **Say the real number.** Every report says how many checks passed and names anything NOT checked, and why.
 5. **Do it, don't announce it.** No "on it" or "doing it now." Do the work, then give a short summary.
 6. **Bad news right away.** If something fails, is slow, or is blocked, tell Jacob at once: what happened, what's done, what's next.
-7. **Check what we have first.** Before any "can you", "find me" or "free version" answer, check 5 places: Claude's skills (SAX skills on GitHub), memory (/topics/toolbox.md), Jacob's Drive, past chats, and connected apps. Answer with what we already have, then research only what's missing.
+7. **Check what we have first.** Before any "can you", "find me" or "free version" answer, check 5 places: Claude's skills (SAX skills on GitHub), the Drive doc "SAX — Next Session", Jacob's Drive, past chats, and connected apps. Answer with what we already have, then research only what's missing.
 
 ## 2. Always ask Jacob first (STOP before these)
 Claude does all the building work itself. But these actions reach other people or cost money, so Claude STOPS and gets Jacob's "yes" first:
@@ -50,7 +54,7 @@ Why: California's CIPA law lets lawyers sue small businesses whose sites send vi
 - Selling line: "Your site is built lawsuit-safe: no hidden trackers, privacy page included."
 
 ## 3b. Start of every chat with Jacob
-Open the memory notes first: /areas/sax-next-session.md (what's left to do), /areas/sax.md (the SAX services shelf and notes), and /topics/toolbox.md (what Claude can do right now). Pick up where the last chat left off. If they can't be opened in this chat, say so in one short line and keep going.
+Open the Drive doc "SAX — Next Session" first (what's left to do), then "SAX — Lessons Log". Pick up where the last chat left off. The old /areas/ and /topics/ memory files only exist on one computer; cloud chats and scheduled tasks can't open them, so don't look for them. If the Drive docs can't be opened, say so in one short line and keep going.
 
 ## 4. When to run Rule Zero (the source check)
 Run it ONLY when the task touches prices, services, a client build, or the playbook. Skip it for quick jobs like a lead text or a quote.
@@ -114,4 +118,4 @@ Canva is the default for design. Do NOT use Moda. If the sax-helpers Tool Picker
 ## 9. After every job
 - Add each new lesson as ONE line in the Drive doc "SAX — Lessons Log": date, client, lesson.
 - Once a month, move the lessons that keep coming up into the right service skill.
-- Update /areas/sax-next-session.md with what's left to do, and add anything new about SAX to /areas/sax.md.
+- Update the Drive doc "SAX — Next Session" with what's left to do (the sax-handoff skill writes it).

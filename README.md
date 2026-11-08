@@ -41,7 +41,7 @@ Everything Bundle: services 1-8 and 10 (QR included free) — $2,250 + $260/mo.
 | /sync-skill | `.claude/skills/sync-skill/SKILL.md` | Pushes a changed skill to GitHub, Notion and the playbook — asks first |
 | SAX Skills plugin | `.claude-plugin/marketplace.json` | Optional: lets this repo be installed as a plugin in Claude Code |
 
-**This repo is the master copy.** Before using a SAX skill, Claude reads its newest version from `https://raw.githubusercontent.com/jacobdemitrow-code/sax-skills/main/<skill>/SKILL.md`, so a change pushed here works in every chat. No zip uploads to Claude Settings.
+**This repo is the master copy, but Claude does NOT read it automatically.** Claude chats load the copy installed in Settings > Skills. That copy only changes when the zip is re-uploaded there. So after a skill changes here: push to GitHub, then upload the new zip in Settings > Skills (one tap per skill). sax-core also tells Claude to fetch its newest copy from GitHub first, as a safety net.
 | Weekly drift check | `scripts/drift_check.py` | Sunday morning check: zips match folders, prices match sax-core, no key files |
 
 `keys.env` stays out of git (see `.gitignore`). Run `python3 scripts/drift_check.py` any time.

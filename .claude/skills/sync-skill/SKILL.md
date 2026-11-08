@@ -7,8 +7,7 @@ argument-hint: "[skill-name, or blank for every changed skill]"
 
 # Sync a skill everywhere
 
-Jacob's rule (Oct 21): GitHub is the MASTER copy. Claude reads each skill's newest version straight from
-`https://raw.githubusercontent.com/jacobdemitrow-code/sax-skills/main/<skill>/SKILL.md` before using it, so a change pushed here takes effect in every chat. Notion SAX Skills and the playbook must match too. Never ask Jacob to upload zips or update skills in Claude Settings.
+Jacob's rule (Oct 21, corrected Nov 8): GitHub is the MASTER copy, but Claude chats load the copy installed in Settings > Skills, and that copy does NOT update itself from GitHub (found Nov 8: Settings still had the Oct 21 sax-core while GitHub had Oct 27). So every sync ends with Jacob uploading the new zip in Settings > Skills. Notion SAX Skills and the playbook must match too.
 
 ## 1. Find what changed
 - If a skill name was given (`$ARGUMENTS`), use it. Otherwise run `git status --short` and list every skill folder with changes.
@@ -29,7 +28,7 @@ Jacob's rule (Oct 21): GitHub is the MASTER copy. Claude reads each skill's newe
 2. **Notion:** search Notion for "SAX Skills" (inside SAX — Business Home Base), open the page for that skill, and replace its text with the new SKILL.md, word for word.
 3. **Playbook:** only if a build recipe or price changed — open "SAX — New Client Build Playbook + Jacob's Guide" in Google Drive (SAX Brand Files) and update that service's recipe to match.
 4. **Confirm it's live:** fetch the raw GitHub URL above for each changed skill and confirm the new text is there. That is what every chat will now read. A NEW skill folder must also be added to the `skills` list in `.claude-plugin/marketplace.json` (drift_check.py catches it if not).
-   - Claude Settings: nothing to do. Do NOT ask Jacob to upload zips, and do NOT use the propose_skills Save card (it shows no Save button for Jacob — tested Oct 21, iPad Safari).
+   - Claude Settings: give Jacob the zip link for each changed skill (`https://github.com/jacobdemitrow-code/sax-skills/raw/main/<skill>.zip`) and ask him to upload it in Settings > Skills. Do NOT use the propose_skills Save card (it shows no Save button for Jacob — tested Oct 21, iPad Safari).
 
 ## 6. Report
 Use the done-checker's format: the real number of checks for each place (GitHub raw link, Notion, playbook), and name anything not checked and why.
