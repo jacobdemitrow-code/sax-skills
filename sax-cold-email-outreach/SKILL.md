@@ -36,6 +36,7 @@ Weekdays, the agent team finds 5 real local leads, checks them, writes one uniqu
 - Record the exact page URL where each email was seen. Never guess an email.
 - Before describing a button, open where it goes. Only say something is "missing" after checking home AND contact/booking.
 - A site that won't load: retry once, then skip. Never write that a site is down.
+- If a lead's email domain differs from its website's, or two emails appear on the site, run an email check (Firecrawl's Hunter email-verify) and drop any "invalid".
 
 ## 5. Writing the email
 - One email per business, unique: its own opening, angle, and closing question. No two emails share any of those.
@@ -72,6 +73,7 @@ jacobdemitrow@gmail.com
 - The summary email says: "Best time to tap Send all: a Tue–Thu morning. If it's after 2 PM, wait until the next weekday morning."
 - After any Make change, confirm every scenario's ON/OFF with scenarios_list.
 - Never send, post, or tap the Send all link. Jacob taps it.
+- Send all also fires follow-ups. In the summary email say "Send all will send X new emails and Y follow-ups." After any Send all, re-read the tracker and Gmail Sent before writing a handoff.
 
 ## 8. Done-check for this build (5 different checks)
 1. **Run:** the scheduled task ran, and the session finished (idle, not failed). Note its cost.
