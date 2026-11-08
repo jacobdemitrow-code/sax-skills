@@ -53,12 +53,13 @@ Pick the row that matches the work, run all 5, then report.
 5. **In the area:** every business is inside the area asked for, and no national chains.
 
 ### An unattended run (scheduled task or agent, added Nov 8)
-Every scheduled task and agent runs these at the end, before its email or final message to Jacob. Each task has this block at the top of its prompt, under its job card.
+Every scheduled task and agent runs these at the end. Checks 1, 3, 4 and 5 run before its email to Jacob. Check 2 also covers that email: read it back after sending. The final message has the full count. Each task has a block like this at the top of its prompt, under its job card, fitted to that task.
 1. **Finished:** every step ran. If one failed, the report names it and what was tried.
-2. **Saved:** everything it wrote (tracker rows, drafts, leads, the email) was opened again after saving.
-3. **Only Jacob:** nothing went to anyone but Jacob. The run itself never sends, posts, publishes, or taps Send all.
+2. **Saved:** everything it wrote (tracker rows, drafts, leads) was opened again after saving, and its email was read back after sending.
+3. **Only Jacob:** nothing went to anyone but Jacob (or the task's named owner). The run never sends cold emails, posts, publishes, or taps Send all.
 4. **Cost:** the run's API cost is in the report, or it says "No extra API cost."
 5. **Problems first:** if anything failed, the first line starts with "FAILED:" so Jacob's phone shows it.
+A normal early stop that the task allows (for example "today's post was already sent") is not a failure. It skips the checks and ends with the task's own exact line.
 
 ## How to report (always this format)
 "**Checked 5 of 5:** source ✓, logged-out ✓, phone ✓, test booking arrived ✓, privacy ✓."
